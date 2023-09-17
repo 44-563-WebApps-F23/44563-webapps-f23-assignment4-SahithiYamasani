@@ -21,12 +21,12 @@
     color: white;
   }
 
-  .mrs-elvsted {
-    color: red; /* You can choose your preferred color */
+  .elvsted {
+    color: mediumorchid; 
   }
   
-  .berta {
-    color: blue; /* You can choose your preferred color */
+  .breta {
+    color: blue; 
   }
 
   /* CSS styles for the table */
@@ -54,3 +54,11 @@
     background-color: lightcyan;
   }
   
+  /* Style for character names when hovering */
+.breta:hover,
+.elvsted:hover {
+    text-shadow: 2px 2px 2px darkcyan, 0 0 1em darkorange, 0 0 0.2em darkorange;
+ /* box-shadow: 4px 4px 8px rgba(255, 0, 0, 0.7); /* Interesting shadow with a red color */
+  /*border: 2px solid #00ff00; /* Interesting green border */
+  transition: box-shadow 0.3s ease-in-out, border 0.3s ease-in-out; /* Smooth transition */
+}
