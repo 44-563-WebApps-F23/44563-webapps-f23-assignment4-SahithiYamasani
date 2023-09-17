@@ -1,21 +1,23 @@
 .speech
 {
+    font-style: oblique;
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 21px;
     color: black;
 }
 
 .direction
 {
+    display: table;
     font-family: Times New Roman, serif;
-    font-size: 12px;
+    font-size: 17px;
     color: black;
-    background-color: lightgray;
+    background-color: lightseagreen;
 }
 
 .direction:hover
  {
-    background-color: lightblue;
+    background-color: lightcoral;
     color: white;
   }
 
