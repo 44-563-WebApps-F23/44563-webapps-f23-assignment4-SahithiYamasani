@@ -59,7 +59,7 @@
 .elvsted:hover {
     text-shadow: 2px 2px 2px darkcyan, 0 0 1em darkorange, 0 0 0.2em darkorange;
     border-bottom: solid 3px #019fb6;
-    transition: left 250ms ease-in-out, right 250ms ease-in-out;
+    /*transition: left 250ms ease-in-out, right 250ms ease-in-out;
     opacity: 0;
  /* box-shadow: 4px 4px 8px rgba(255, 0, 0, 0.7); /* Interesting shadow with a red color */
   /*border: 2px solid #00ff00; /* Interesting green border */
@@ -85,4 +85,9 @@
   .navbar a i {
     margin-right: 5px;
   }
-  
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+  }
